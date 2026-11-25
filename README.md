@@ -2,7 +2,8 @@
 
 Stranica kluba na **https://vis.curling.hr** (GitHub Pages, grana `main`, korijen repozitorija).
 Potpuno samostalna: ne koristi ništa sa stranica Hrvatskog curling saveza (curling.hr).
-Do studenoga 2026. bila je u mapi `vis/` repozitorija `admin-curling-hr/curling-hr`.
+Repozitorij: `admin-curling-hr/vis-curling-hr`. Do studenoga 2026. stranica je bila u mapi `vis/`
+repozitorija `admin-curling-hr/curling-hr` (ta mapa je uklonjena, bez preusmjeravanja).
 
 ## Datoteke
 
@@ -27,5 +28,4 @@ i član ga šalje klubu na vis@curling.hr.
 
 `vis.curling.hr` je u Cloudflareu (zona curling.hr) zapis **CNAME → `admin-curling-hr.github.io`**,
 *DNS only* (sivi oblak). U repozitoriju: *Settings → Pages → Custom domain* = `vis.curling.hr`,
-*Enforce HTTPS* uključeno. Stara adresa `curling.hr/vis/` preusmjerava ovamo (preusmjeravajuće
-stranice su u repozitoriju `curling-hr`, mapa `vis/`).
+*Enforce HTTPS* uključeno.
