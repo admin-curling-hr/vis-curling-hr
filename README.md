@@ -29,3 +29,10 @@ i član ga šalje klubu na vis@curling.hr.
 `vis.curling.hr` je u Cloudflareu (zona curling.hr) zapis **CNAME → `admin-curling-hr.github.io`**,
 *DNS only* (sivi oblak). U repozitoriju: *Settings → Pages → Custom domain* = `vis.curling.hr`,
 *Enforce HTTPS* uključeno.
+
+## Statistika posjeta
+
+Cloudflare Web Analytics (bez kolačića): Cloudflare → *Observability → Analytics → Web analytics* →
+`vis.curling.hr`, način *Enable with JS Snippet installation* (domena je sivi oblak, pa automatsko
+ubacivanje ne radi). Skripta je u `<head>` stranica `index.html` i `pristupnica.html` i učitava se samo
+na `vis.curling.hr`. Nova HTML stranica treba dobiti isti blok.

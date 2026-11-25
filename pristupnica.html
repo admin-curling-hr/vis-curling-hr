@@ -18,6 +18,17 @@
     })();
   </script>
   <link rel="icon" href="logo.png" type="image/png">
+  <!-- Statistika posjeta: Cloudflare Web Analytics (bez kolačića). Učitava se samo na vis.curling.hr,
+       pa lokalno testiranje ne ulazi u brojke. Token nije tajan. -->
+  <script>
+    if (location.hostname === 'vis.curling.hr') {
+      var cfwa = document.createElement('script');
+      cfwa.defer = true;
+      cfwa.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+      cfwa.setAttribute('data-cf-beacon', '{"token": "d07fff7a7cb24158bfc2bbf603955654"}');
+      document.head.appendChild(cfwa);
+    }
+  </script>
 </head>
 <body data-page="vis-pristupnica">
 
